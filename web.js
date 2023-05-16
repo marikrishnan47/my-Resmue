@@ -11,6 +11,19 @@ setInterval(()=>{
 
 },25);
 
+let number4=document.querySelector('#number4')
+let counter4=0;
+setInterval(()=>{
+    if(counter4==65){
+        clearInterval();
+    }
+    else{
+    counter4 +=1;
+    number4.innerHTML=counter4 +'%';
+    }
+
+},25);
+
 let number2=document.querySelector('#number2')
 let counter2=0;
 setInterval(()=>{
